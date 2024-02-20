@@ -4,11 +4,11 @@ API example for CED.
 
 ## 🛠 Built With
 
-[![Node.js](https://img.shields.io/badge/node.js-olivedrab?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
-[![Express](https://img.shields.io/badge/express-olivedrab?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Ethers](https://img.shields.io/badge/ethers-darkslategray?style=for-the-badge&logo=ethereum&logoColor=white)](https://docs.ethers.org/v6/)
-[![Hardhat](https://img.shields.io/badge/hardhat-darkslategray?style=for-the-badge&logo=ethereum&logoColor=white)](https://hardhat.org/)
-[![Solidity](https://img.shields.io/badge/solidity-sienna?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
+[![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=for-the-badge)](https://nodejs.org/en/)
+[![Express Badge](https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge)](https://expressjs.com/)
+[![Ethers Badge](https://img.shields.io/badge/Ethers-3C3C3D?logo=ethereum&logoColor=fff&style=for-the-badge)](https://docs.ethers.org/v6/)
+[![Hardhat Badge](https://img.shields.io/badge/Hardhat-3C3C3D?logo=ethereum&logoColor=fff&style=for-the-badge)](https://hardhat.org/)
+[![Solidity Badge](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=fff&style=for-the-badge)](https://soliditylang.org/)
 
 ## ⚙️ Run Locally
 
@@ -19,10 +19,9 @@ git clone https://github.com/Kerala-Blockchain-Academy/ced-dapp-api.git
 cd ced-dapp-api
 ```
 
-Install dependencies for hardhat
+Install dependencies
 
 ```bash
-cd hardhat
 npm install
 ```
 
@@ -38,19 +37,6 @@ Deploy the contract
 
 ```bash
 npm run deploy:sepolia
-```
-
-Copy '.env' to api
-
-```bash
-cp .env ../api/
-```
-
-Install dependencies for api
-
-```bash
-cd .. && cd api/
-npm install
 ```
 
 Start the application
